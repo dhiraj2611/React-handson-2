@@ -1,0 +1,60 @@
+html{
+    background-image: linear-gradient(to top, pink ,rgb(196, 146, 154), rgb(197, 246, 246));
+    height: 100%;
+}
+h1{
+    font-size: 2em;
+}
+#blockContainer
+{
+    border: 3px solid black;
+    background-color: rgb(67, 155, 155);
+    width: 1000px;
+    position: absolute;
+    top: 350px;
+    left: 280px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#block
+{
+    background-color: rgb(233, 118, 137);
+    width: 450px;
+    height: 70px;
+    border-radius: 35px;
+    border: 2px solid black;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+input
+{
+    height: 50px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 25px;
+    background-color: rgb(171, 226, 226);
+    align-items: center;
+}
+label
+{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+input[type='submit']
+{
+    background: rgb(48, 145, 140);  
+    font-size: 30px;
+}
+input[type='submit']:hover{
+    background: rgb(65, 136, 136);
+    cursor: pointer;
+}
+#container{
+    text-align: center;
+}
